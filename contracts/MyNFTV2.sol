@@ -7,7 +7,7 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
-contract MyNFT is
+contract MyNFTV2 is
     Initializable,
     ERC721Upgradeable,
     ERC721BurnableUpgradeable,
@@ -27,7 +27,7 @@ contract MyNFT is
         __Ownable_init(initialOwner);
         __UUPSUpgradeable_init();
 
-        version = 1;
+        version = 2;
     }
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {

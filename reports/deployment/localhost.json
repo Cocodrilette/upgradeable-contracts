@@ -7,5 +7,146 @@
     ],
     "hash": "0xd94703574159dbdba7ee675801c9cbebf9eb87489e145feb7ffcd1540bdef02d",
     "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0x9f6457468415f1093965fbc15d59f300006d9ef74f17f0bcc305aeab9b9df5d4",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0x6a2531697c24d31354123aa033e45a316de2da3dfcec30b83cdcb89168ce8717",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0xc0c8a3680614e9bb13b40a8f156d84e9daf68400e7177a9b9d795e88d1a14135",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0x3d38241c73dc79f50c1d11d8a2249c305a4d63030cb455660a51e06339ab71c5",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0x36e840792b421d99568d1e82b7a1389bfab6da3e09171489a437124ca90e6633",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0x5df4fb88fbfcc32dffeae4be600c9dd2312858fb6202623c49915c6f6ac8143e",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0xb6dd0a15e8127bb728dc258ba6b2fcfc29c7fc364e35d7ebc85eb42ae0c8c390",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0x4a0e4d016ae2b1e184575002a910ad1781f37ef8fb81d02dfa98d12970434c17",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0x73e0d985817963111fa3b2d62ec4fe5eb2c5b7e0ca3afaf128102db7b632b463",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0x8271ce154961e8b0860359752af74cdedce6d8b245c711cb9099620839b12aed",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0xa060d84776318abc3223ddd988f44fc5d10f6d3158329435b47c6a5e72dad452",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0xd91dde86f7fbfc2a0773e60c22f70e7163abda53a74c793cb3a923aa342d1080",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0x44134b3c3e2daa9c91a6ba8dc91712b89315fd040df0df571267b423e2474e82",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "implementationOf": "0x0165878A594ca255338adfa4d48449f69242Eb8F"
+  },
+  {
+    "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+    "name": "MyNFT",
+    "args": [
+      "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    ],
+    "hash": "0x44871a8f32980e77269b4b3966ed1ec9b304f4dde0ff23694a15bbe97566ba35",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  {
+    "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0xb7c798c3ca1ed3272d6141e2ed2ef959326aa29ef952697ee85074127bd6d48d",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "implementationOf": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"
+  },
+  {
+    "address": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0xd676af463a6ffaf21c12cd8a6c4e86019308749c1abc4b8809571ae4382b1336",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "implementationOf": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"
+  },
+  {
+    "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+    "name": "MyNFTV2",
+    "args": [],
+    "hash": "0x4c457ae85d1a77821930385ef70b7cc91bcd70c0d5443cb074d708d0a5384189",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "implementationOf": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"
   }
 ]
