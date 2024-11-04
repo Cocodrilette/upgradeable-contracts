@@ -1,23 +1,25 @@
 import { ethers, upgrades } from "hardhat";
-import { deployContract } from "../../utils/deploy";
 
 const CONTRACT_NAME = "MyNFTV2";
-const CONTRACT_ADDRESS = "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318";
+const CONTRACT_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 
 async function main() {
-  const proxy = await ethers.getContractAt(CONTRACT_NAME, CONTRACT_ADDRESS);
-  const contract = await deployContract({
-    name: CONTRACT_NAME,
-    args: [],
-    implementationOf: CONTRACT_ADDRESS,
+  const initialOwner = (await ethers.getSigners())[0];
+
+  const Contract = await ethers.getContractFactory(CONTRACT_NAME);
+  const contract = await upgrades.upgradeProxy(CONTRACT_ADDRESS, Contract, {
+    kind: "uups",
+    redeployImplementation: "always",
+    call: {
+      fn: "initialize",
+      args: [initialOwner.address],
+    },
   });
 
-  await (contract as any).initialize(await proxy.owner());
-  await proxy.upgradeToAndCall(contract.target, "0x");
-
-  console.log("MyNFT upgraded");
+  await contract.waitForDeployment();
+  console.log("Contract upgraded at:", contract.target);
 }
-  
+
 main()
   .then(() => process.exit(0))
   .catch((error) => {
