@@ -1,4 +1,5 @@
-import { ethers, upgrades } from "hardhat";
+import { ethers, network, upgrades } from "hardhat";
+import { logDeployment, saveDeploymentToReport } from "./report";
 
 export async function deployProxy({
   name,
@@ -13,35 +14,19 @@ export async function deployProxy({
 
   const tx = contract.deploymentTransaction();
 
-  logDeployment({
+  const reportArgs = {
     address: contract.target as string,
     name,
     args,
     hash: (tx?.hash as string) || "0x0",
     deployer: (tx?.from as string) || "0x0",
+  };
+
+  logDeployment(reportArgs);
+  saveDeploymentToReport({
+    ...reportArgs,
+    network: network.name,
   });
 
   return contract;
-}
-
-export function logDeployment({
-  address,
-  name,
-  args,
-  hash,
-  deployer,
-}: {
-  address: string;
-  name: string;
-  args: any[];
-  hash: string;
-  deployer: string;
-}) {
-  console.log("\n🚀 Contract Deployed");
-  console.log("📦 Name:        ", name);
-  console.log("📄 Address:     ", address);
-  console.log("🔗 Transaction: ", hash);
-  console.log("👷 Deployer:    ", deployer);
-  console.log("🎯 Args:        ", args);
-  console.log("\n");
 }
